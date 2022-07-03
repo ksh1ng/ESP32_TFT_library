@@ -34,6 +34,7 @@
 #include "esp_attr.h"
 #include "mutex.h"
 
+extern void _frxt_setup_switch( void );
 
 #define portEND_SWITCHING_ISR(xSwitchRequired) \
 if (xSwitchRequired) {	  \
